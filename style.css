@@ -1,0 +1,32 @@
+.squares{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+}
+.red-square{
+    position: absolute;
+    z-index: 1;
+   left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.blue-square{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    z-index: 2;
+}
+.green-square{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    z-index: 3;
+}
